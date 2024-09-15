@@ -21,7 +21,7 @@ import GaleriaDeImagens from './components/GaleriaImagens';
 //<ToggleVisibility />
 //<TextDinamic />
 //<ContadorDeCaracteres />
-//<GaleriaImagem />
+//<GaleriaDeImagens />
 
 function App() {
   return (
