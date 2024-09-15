@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+//import HelloWord from './components/HelloWord';
+//import Saudacao from './components/Saudacao';
+//import Contador from './components/Contador';
+//import ListaTarefas from './components/ListaTarefas';
+//import BotaoTrocaCor from './components/BotaoTrocaCor';
+//import PerfilUsuario from './components/Perfil';
+//import ToggleVisibility from './components/ToggleVisibilidade';
+//import TextDynamic from './components/TextoDinamico';
+//import ContadorDeCaracteres from './components/ContadorPalavras';
+//import { CalculadoraSomatorio } from './components/CalculadoraSoma';
+import GaleriaDeImagens from './components/GaleriaImagens';
+
+//lista das chamadas
+//<HelloWord /> 
+//<Saudacao />
+//<Contador />
+//<ListaTarefas />
+//<BotaoTrocaCor />
+//<PerfilUsuario />
+//<ToggleVisibility />
+//<TextDinamic />
+//<ContadorDeCaracteres />
+//<GaleriaImagem />
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Substituir as chamadas pelo componente correspondente */}
+      <GaleriaDeImagens />
     </div>
   );
 }
